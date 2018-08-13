@@ -13,40 +13,37 @@
     <link href="materialize/material-icon.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
-	<noscript>
-		<link rel="stylesheet" type="text/css" href="css/noscript.css" />
-	</noscript>
     <style>
-            .body{
-                background-color: rgba(0,0,0,.1); 
-            }
-            .maps{
-                height: 450px !important;
-                box-sizing: border-box;
-                width: 100%;
-                padding: 0;
-            }
-            #map{
-                margin: 0;
-                height: 100%;
-                width: 100%;
-                background: black;
-            }
-            .sidebar{
-                background-color: rgba(0,0,0,.8);
-                color: white;
-            }
+        .body{
+            background-color: rgba(0,0,0,.1); 
+        }
+        .maps{
+            height: 450px !important;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0;
+        }
+        #map{
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            background: black;
+        }
+        .sidebar{
+            background-color: rgba(147, 220, 58,.9);
+            color: white;
+        }
 
-            .box_shadow{
-                box-shadow: 10px 5px 10px 2px rgba(0,0,0,.3),
+        .box_shadow{
+            box-shadow: 10px 5px 10px 2px rgba(0,0,0,.3),
                             -10px 5px 10px 2px rgba(0,0,0,.3);
-                            padding: 10px;
-                background-color: white;
-            }
+            padding: 10px;
+            background-color: white;
+        }
     </style>
 </head>
 <body class="body">
+
 <div class="navbar">
     <ul id='dropdown1' class='dropdown-content sidebar'>
         <li><a href="#!" class="white-text">link 1</a></li>
@@ -72,25 +69,23 @@
                 <a href="#" class="brand-logo">SIDOMULYO</a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <form class="padrig">
-                            <input type="search" name="" placeholder="cari.." size="40">
-                        </form>
-                    </li>
-                    <li>
                         <a href="#" class="dropdown-trigger hide-on-med-and-down" data-activates='dropdown1'>
+                            <i class="material-icons left">format_list_bulleted</i>
                             Profile
                             <i class="material-icons right">keyboard_arrow_down</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="dropdown-trigger2 hide-on-med-and-down" data-activates='dropdown2'>
+                            <i class="material-icons left">format_list_bulleted</i>
                             Kegiatan
                             <i class="material-icons right">keyboard_arrow_down</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="dropdown-trigger3 hide-on-med-and-down" data-activates='dropdown3'>
-                            Layanan
+                            <i class="material-icons left">format_list_bulleted</i>
+                             Layanan
                             <i class="material-icons right">keyboard_arrow_down</i>
                         </a>
                     </li>
@@ -103,9 +98,9 @@
 <ul class="side-nav light-green accent-4 opacity" id="mobile">
     <li><div class="user-view">
             <div class="background">
-                <img src="images/thumbs/1.jpg">
+                <img src="images/large/4.jpg" style="background-size: cover;">
             </div>
-            <a href="#!user"><img class="circle" src="adam.jpg"></a>
+            <a href="#!user"><img class="circle" src=""></a>
             <a href="#!name"><span class="white-text name">SIDOMULYO</span></a>
         </div>
     </li>
@@ -114,7 +109,7 @@
         <ul class="collapsible collapsible-accordion light-green accent-3">
             <li class="bold">
                 <a class="collapsible-header waves-effect white-text">
-                    <i class="mdi-action-view-carousel"></i>Profile
+                    <i class="material-icons white-text">format_list_bulleted</i>Profile
                 </a>
                 <div class="collapsible-body">
                     <ul>
@@ -136,7 +131,7 @@
         <ul class="collapsible collapsible-accordion light-green accent-3">
             <li class="bold">
                 <a class="collapsible-header waves-effect white-text">
-                    <i class="mdi-action-view-carousel"></i>Kegiatan
+                    <i class="material-icons white-text">format_list_bulleted</i>Kegiatan
                 </a>
                 <div class="collapsible-body">
                     <ul>
@@ -158,7 +153,7 @@
         <ul class="collapsible collapsible-accordion light-green accent-3">
             <li class="bold">
                 <a class="collapsible-header waves-effect white-text">
-                    <i class="mdi-action-view-carousel"></i>Layanan
+                    <i class="material-icons white-text">format_list_bulleted</i>Layanan
                 </a>
                 <div class="collapsible-body">
                     <ul class="">
@@ -179,66 +174,48 @@
     <li class="divider"></li>
 </ul>
 
-<div class="wrapper">
+<div id="auto-slider" class="wrapper">
     <div id="ei-slider" class="ei-slider">
         <ul class="ei-slider-large">
-			<li>
-                <img src="images/large/6.jpg" alt="image06"/>
-                <div class="ei-title">
-                    <h2>Passionate</h2>
-                    <h3>Seeker</h3>
-                </div>
-            </li>
             <li>
                 <img src="images/large/1.jpg" alt="image01" />
                 <div class="ei-title">
-                    <h2>Creative</h2>
-                    <h3>Duet</h3>
+                    <h2>Sawah</h2>
+                    <h3>pagi hari</h3>
                 </div>
             </li>
             <li>
                 <img src="images/large/2.jpg" alt="image02" />
                 <div class="ei-title">
-                    <h2>Friendly</h2>
-                    <h3>Devil</h3>
+                    <h2>Bunga</h2>
+                    <h3>Di balai desa</h3>
                 </div>
             </li>
             <li>
                 <img src="images/large/3.jpg" alt="image03"/>
                 <div class="ei-title">
-                    <h2>Tranquilent</h2>
-                    <h3>Compatriot</h3>
+                    <h2>Embun pagi</h2>
+                    <h3>Di sawah Sidomulyo</h3>
                 </div>
             </li>
             <li>
                 <img src="images/large/4.jpg" alt="image04"/>
                 <div class="ei-title">
-                    <h2>Insecure</h2>
-                    <h3>Hussler</h3>
+                    <h2>Gapura Utama</h2>
+                    <h3>Sidomulyo</h3>
                 </div>
             </li>
             <li>
                 <img src="images/large/5.jpg" alt="image05"/>
                 <div class="ei-title">
-                    <h2>Loving</h2>
-                    <h3>Rebel</h3>
-                </div>
-            </li>
-            <li>
-                <img src="images/large/7.jpg" alt="image07"/>
-                <div class="ei-title">
-                    <h2>Crazy</h2>
-                    <h3>Friend</h3>
+                    <h2>Jalan Sehat</h2>
+                    <h3>Sidomulyo</h3>
                 </div>
             </li>
         </ul>
         <!-- ei-slider-large -->
         <ul class="ei-slider-thumbs">
             <li class="ei-slider-element">Current</li>
-			<li>
-                <a href="#">Slide 6</a>
-                <img src="images/thumbs/6.jpg" alt="thumb06" />
-            </li>
             <li>
                 <a href="#">Slide 1</a>
                 <img src="images/thumbs/1.jpg" alt="thumb01" />
@@ -259,16 +236,25 @@
                 <a href="#">Slide 5</a>
                 <img src="images/thumbs/5.jpg" alt="thumb05" />
             </li>
-            <li>
-                <a href="#">Slide 7</a>
-                <img src="images/thumbs/7.jpg" alt="thumb07" />
-            </li>
         </ul><!-- ei-slider-thumbs -->
     </div><!--  ei-slider    -->   
 </div><!-- wrapper -->
 <br>
+<br>
+<section id="search" class="section section-search light-green accent-4 white-text center scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3>search</h3>
+                <div class="input-field">
+                    <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="lomba,etc...">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="">      
+<section id="kegiatan" class="">      
     <div class="container box_shadow">
     <br>
         <div class="divider light-green accent-4"></div>
@@ -363,29 +349,156 @@
     <br>
 </section>
 
-<section class="section section-follow">
-    <div class="card light-green accent-4">
-        <div class="card-tabs">
-            <ul class="tabs tabs-fixed-width tabs-transparent">
-                <li class="tab"><a href="#test4">Potensi Desa</a></li>
-                <li class="tab"><a class="active" href="#test5">Perangkat Desa</a></li>
-                <li class="tab"><a href="#test6">Profil Data RT/RW</a></li>
-                <li class="tab"><a href="#test7">Galleri Kegiatan Desa</a></li>
-            </ul>
-        </div>
-        <div class="card-content grey lighten-4 grey-text">
-            <div class="container">
-                <div id="test4">Test 1</div>
-                <div id="test5">Test 2</div>
-                <div id="test6">Test 3</div>
-                <div id="test7">Test 4</div>
+<section id="tabs" class="section section-follow">
+    <div class="container box_shadow">
+        <div class="card light-green accent-4">
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width tabs-transparent">
+                    <li class="tab"><a href="#test4"><i class="material-icons">panorama</i>Potensi Desa</a></li>
+                    <li class="tab"><a class="active" href="#test5"><i class="material-icons">people</i>Perangkat Desa</a></li>
+                    <li class="tab"><a href="#test6"><i class="material-icons">people</i>Profil Data RT/RW</a></li>
+                    <li class="tab"><a href="#test7"><i class="material-icons">panorama</i>Galleri Kegiatan Desa</a></li>
+                </ul>
+            </div>
+            <div class="card-content white">
+                <div id="test4">
+                    <h4 class="center">
+                        <span>Photo</span>Gallery
+                    </h4>
+                    <div class="row">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/1.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                    </div>
+                </div>
+                <div id="test5">
+                    <h5 class="center">
+                            INFORMASI STRUKTUR PEMERINTAHAN <p class="green-text">DESA SUMBERSARI</p>
+                    </h5>
+                    <div class="row">
+                        <div class="col s12 m12 l12 center">
+                            <h6>
+                                KEPALA DESA
+                            </h6>
+                            <img src="images/large/5.jpg" alt="" width="200px" height="250px">
+                            <p>SLAMET FIFIN ALAMSYAH</p>
+                            <div class="divider"></div>
+                        </div>
+                         <div class="col s12 m12 l12 center">
+                            <h6>
+                                SEKERTARIS DESA
+                            </h6>
+                            <img src="images/large/5.jpg" alt="" width="200px" height="250px">
+                            <p>nama </p>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="col s12 m6 l4 center">
+                            <h6>
+                                KEPALA DUSUN
+                            </h6>
+                            <img src="images/large/5.jpg" alt="" width="200px" height="250px">
+                        </div>
+                        <div class="col s12 m6 l4 center">
+                            <h6>
+                                KEPALA DUSUN
+                            </h6>
+                            <img src="images/large/5.jpg" alt="" width="200px" height="250px">
+                        </div>
+                        <div class="col s12 m6 l4 center">
+                            <h6>
+                                KEPALA DUSUN
+                            </h6>
+                            <img src="images/large/5.jpg" alt="" width="200px" height="250px">
+                        </div>
+                    </div>
+                </div>
+                <div id="test6">
+                    <table class="responsive-table centered striped highlight">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>Jabatan</th>
+                                <th>No RT/RW</th>
+                                <th>Alamat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                                </tr>
+                                <tr>
+                                <td>6</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Pak RT</td>
+                                <td>KETUA RT</td>
+                                <td>1/1</td>
+                                <td>Dusun Sidodukuh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="test7"> 
+                    <h4 class="center">
+                        <span class="green-text">Photo</span>Gallery
+                    </h4>
+                    <div class="row">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l6 materialboxed responsive-img">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                        <img src="images/large/3.jpg" alt="" class="col s12 m4 l3 materialboxed responsive-img">
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
+    </div>
 </section>
 
 <div class="maps">
-    <div id="map"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.558431407604!2d112.43584687012498!3d-8.087241930139985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e789a1ae6903fbf%3A0x53cb72cd4bd13e8d!2sSidomulyo%2C+Selorejo%2C+Blitar%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1534142274509" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <section id="contact" class="section section-contact scrollspy">
@@ -394,15 +507,15 @@
             <div class="col s12 m6 l6">
                 <div class="card-panel light-green accent-4 white-text center">
                     <i class="material-icons">email</i>
-                    <h5>Hubungi Kami</h5>
+                    <h5>Tentang Kami</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero veritatis ab doloremque nam optio enim vel, iure officiis veniam. Obcaecati ipsam expedita iusto quo, ratione placeat atque numquam eveniet quasi.</p>
                 </div>
                  <ul class="collection with-header">
                     <li><h4 class="collection-header flow-text  green-text">Kontak Detail</h4></li>
-                    <li class="collection-item grey-text">Alamat : Sidomulyo</li>
+                    <li class="collection-item grey-text">Alamat : Sidomulyo, Krian-SIdoarjo</li>
+                    <li class="collection-item grey-text">Kode pos : 61262</li>
                     <li class="collection-item grey-text">Email : Sidomulyo</li>
                     <li class="collection-item grey-text">Telp : Sidomulyo</li>
-                    <li class="collection-item grey-text">Alamat : Sidomulyo</li>
                     <li class="collection-item grey-text">Alamat : Sidomulyo</li>
                 </ul>
             </div>
@@ -465,33 +578,38 @@
     </div>
 </footer>
         
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="jquery.js"></script> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script src="materialize/js/materialize.min.js"></script>
 <script type="text/javascript">
     $(function() {                   
+        $('#ei-slider').eislideshow({
+            animation           : 'center',
+            autoplay            : true,
+            slideshow_interval  : 3000,
+            titlesFactor        : 0
+        });
+        $('.collapsible').click(function(e) {
+            var target=e.currentTarget.childNodes[1];
+            var body=target.getElementsByClassName('collapsible-body');
+            if(body[0].style.display=="block"){
+                body[0].style.display="none";
+            }else{
+                body[0].style.display="block";
+
+            }    
+        });
         $('.button-collapse').sideNav();
         $('.dropdown-trigger').dropdown();
         $('.dropdown-trigger2').dropdown();
         $('.dropdown-trigger3').dropdown();
-                $('#ei-slider').eislideshow({
-                    animation           : 'center',
-                    autoplay            : true,
-                    slideshow_interval  : 3000,
-                    titlesFactor        : 0
-                });
-            });        
-    function initMap() {
-        var options={
-                zoom:13,
-                center:{lat: -7.39574249, 
-                    lng: 112.57462033}
-            }
-        var map=new google.maps.Map(document.getElementById('map'),options);
-    }
+        $('.autocomplete').autocomplete({data:{
+            "lomba":null
+         }});
+
+    });        
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2CiFhsnfFj_RGJYZIz4IHUfE9Dgrd-aQ&callback=initMap" async defer></script>
 </body>
 </html>
